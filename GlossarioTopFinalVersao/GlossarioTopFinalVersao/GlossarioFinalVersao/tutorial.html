@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial TopZera</title>
+    <link rel="stylesheet" href="tags.css">
+</head>
+<body>
+            <div class="neon-box">
+        <p>&lt;Tutorial TopZera&gt;</p> </div>
+<br><br>
+<div class="cards-container">
+
+    <div class="card">
+        <details>
+            <summary class="card-header">Como criar uma NavBar?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Uma NavBar (barra de navegação) permite ao usuário navegar entre páginas ou seções.</p>
+                <p><strong>Exemplo de código HTML:</strong></p>
+                <pre>
+&lt;nav class="navbar"&gt;
+  &lt;a href="#home"&gt;Home&lt;/a&gt;
+  &lt;a href="#sobre"&gt;Sobre&lt;/a&gt;
+  &lt;a href="#contato"&gt;Contato&lt;/a&gt;
+&lt;/nav&gt;
+                </pre>
+                <p><strong>CSS para NavBar:</strong></p>
+                <pre>
+.navbar {
+  background: #003366;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 0 18px #39ff14, 0 0 50px #39ff1433;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.navbar a {
+  color: #39ff14;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 6px 18px;
+  border-radius: 6px;
+  transition: background .2s, color .2s;
+  text-shadow: 0 0 7px #39ff14cc;
+  letter-spacing: .5px;
+}
+.navbar a:hover {
+  background: #39ff14;
+  color: #003366;
+}
+                </pre>
+                <p><strong>Visual:</strong></p>
+                <div class="visual-exemplo" style="background: #003366;">
+                    <nav class="navbar" style="background: #003366; border-radius:10px; box-shadow:0 0 18px #39ff14,0 0 50px #39ff1433; display:flex; gap:24px; justify-content:center; padding:12px 18px;">
+                        <a href="#" style="color:#39ff14; font-weight:600; text-decoration:none; padding:6px 18px; border-radius:6px; text-shadow:0 0 7px #39ff14cc; letter-spacing:.5px;">Home</a>
+                        <a href="#" style="color:#39ff14; font-weight:600; text-decoration:none; padding:6px 18px; border-radius:6px; text-shadow:0 0 7px #39ff14cc; letter-spacing:.5px;">Sobre</a>
+                        <a href="#" style="color:#39ff14; font-weight:600; text-decoration:none; padding:6px 18px; border-radius:6px; text-shadow:0 0 7px #39ff14cc; letter-spacing:.5px;">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </details>
+    </div>
+
+    <div class="card">
+        <details>
+            <summary class="card-header">Como criar um Accordion?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Accordion é um painel expansível para esconder/mostrar conteúdo.</p>
+                <p><strong>Exemplo de código HTML:</strong></p>
+                <pre>
+&lt;details class="accordion"&gt;
+  &lt;summary&gt;Clique para expandir&lt;/summary&gt;
+  &lt;p&gt;Conteúdo do accordion.&lt;/p&gt;
+&lt;/details&gt;
+                </pre>
+                <p><strong>CSS para Accordion:</strong></p>
+                <pre>
+.accordion {
+  background: #01334b;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #39ff1433;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+.accordion summary {
+  color: #39ff14;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.06em;
+  text-shadow: 0 0 7px #39ff14;
+}
+.accordion[open] summary {
+  color: #fff;
+  text-shadow: none;
+}
+.accordion p {
+  color: #fff;
+  margin: 10px 0 0 15px;
+}
+                </pre>
+                <p><strong>Visual:</strong></p>
+                <div class="visual-exemplo">
+                    <details class="accordion" style="background:#01334b; border-radius:8px; box-shadow:0 0 12px #39ff1433; padding:10px 15px;">
+                        <summary style="color:#39ff14; font-weight:600; font-size:1.06em; text-shadow:0 0 7px #39ff14; cursor:pointer;">Clique para expandir</summary>
+                        <p style="color:#fff; margin:10px 0 0 15px;">Conteúdo do accordion.</p>
+                    </details>
+                </div>
+            </div>
+        </details>
+    </div>
+
+
+    <div class="card">
+        <details>
+            <summary class="card-header">Como criar um Card?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Card é um bloco de destaque para informações, produtos ou perfis.</p>
+                <p><strong>Exemplo de código HTML:</strong></p>
+                <pre>
+&lt;div class="card-exemplo"&gt;
+  &lt;h3&gt;Título do Card&lt;/h3&gt;
+  &lt;p&gt;Descrição do card.&lt;/p&gt;
+&lt;/div&gt;
+                </pre>
+                <p><strong>CSS para Card:</strong></p>
+                <pre>
+.card-exemplo {
+  background: #04669a;
+  border-radius: 10px;
+  box-shadow: 0 0 16px #39ff1440;
+  padding: 16px 22px;
+  color: #fff;
+  width: 210px;
+  margin: 0 auto;
+}
+.card-exemplo h3 {
+  color: #39ff14;
+  margin-top: 0;
+  text-shadow: 0 0 7px #39ff1466;
+}
+                </pre>
+                <p><strong>Visual:</strong></p>
+                <div class="visual-exemplo" style="background:#04669a; color:#fff; min-width:160px; width:210px; padding:16px 22px;">
+                    <h3 style="margin-top:0; color:#39ff14; text-shadow:0 0 7px #39ff1466;">Título do Card</h3>
+                    <p style="margin-bottom:0;">Descrição do card.</p>
+                </div>
+            </div>
+        </details>
+    </div>
+
+    <div class="card">
+        <details>
+            <summary class="card-header">Como criar um Botão de voltar à página?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Um botão que retorna para a página anterior usando JavaScript.</p>
+                <p><strong>Exemplo de código HTML:</strong></p>
+                <pre>
+&lt;button class="btn-voltar" onclick="window.history <br>.back()"&gt;Voltar&lt;/button&gt;
+                </pre>
+                <p><strong>CSS para botão:</strong></p>
+                <pre>
+.btn-voltar {
+  color: #39ff14;
+  background: #002b36;
+  border: 1.5px solid #39ff14;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background .2s, color .2s;
+  text-shadow: 0 0 7px #39ff14cc;
+}
+.btn-voltar:hover {
+  background: #39ff14;
+  color: #002b36;
+}
+                </pre>
+                <p><strong>Visual:</strong></p>
+                <div class="visual-exemplo">
+                    <button class="btn-voltar" onclick="window.history.back()" style="color:#39ff14; background:#002b36; border:1.5px solid #39ff14; border-radius:6px; padding:8px 20px; font-weight:600; font-size:1em; cursor:pointer; text-shadow:0 0 7px #39ff14cc; transition:background .2s, color .2s;">
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </details>
+    </div>
+
+</div>
+
+    <button class="btn-voltar" onclick="window.history.back()">⮌ Voltar</button>
+</body>
+</html>

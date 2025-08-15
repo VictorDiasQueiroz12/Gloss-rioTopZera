@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT TopZera</title>
+    <link rel="stylesheet" href="tags.css">
+</head>
+<body>
+    <div class="neon-box">
+        <p>&lt;Glossário Interativo de Tags JS&gt;</p>
+    </div>
+<br><br>
+
+   <div class="cards-container">
+
+    <div class="card">
+        <details>
+            <summary class="card-header">O que é o comando IF?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Executa um bloco de código se uma condição for verdadeira.</p>
+                <p><strong>Exemplo:</strong></p>
+                <pre>
+if (idade >= 18) {
+    console.log("Você é maior de idade.");
+}
+                </pre>
+            </div>
+        </details>
+    </div>
+
+    <div class="card">
+        <details>
+            <summary class="card-header">O que é o comando ELSE?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Executa um bloco de código caso a condição do IF seja falsa.</p>
+                <p><strong>Exemplo:</strong></p>
+                <pre>
+if (idade >= 18) {
+    console.log("Maior de idade.");
+} else {
+    console.log("Menor de idade.");
+}
+                </pre>
+            </div>
+        </details>
+    </div>
+
+    <div class="card">
+        <details>
+            <summary class="card-header">O que é o comando SWITCH?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Permite executar diferentes blocos de código com base no valor de uma expressão.</p>
+                <p><strong>Exemplo:</strong></p>
+                <pre>
+switch (cor) {
+    case "vermelho":
+        console.log("A cor é vermelha.");
+        break;
+}
+                </pre>
+            </div>
+        </details>
+    </div>
+
+    <div class="card">
+        <details>
+            <summary class="card-header">O que é o comando CASE?</summary>
+            <div class="card-content">
+                <p class="titulo-card">Define um bloco de código dentro do SWITCH para um valor específico.</p>
+                <p><strong>Exemplo:</strong></p>
+                <pre>
+switch (dia) {
+    case "segunda":
+        console.log("Início da semana.");
+        break;
+    case "sexta":
+        console.log("Quase fim de semana!");
+        break;
+}
+                </pre>
+            </div>
+        </details>
+    </div>
+
+</div>
+
+    <button class="btn-voltar" onclick="window.history.back()">⮌ Voltar</button>
+</body>
+</html>

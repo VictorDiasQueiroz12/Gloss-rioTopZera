@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0D0D0D; 
+    color: #FFFFFF; 
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url(fotos/fundotopzera.png);
+}
+
+.banner {
+    background-image: url(fotos/GlossarioTop.png);
+    height: 525px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    color: #E0E0E0;           
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(13,13,13,0.08);
+    padding: 32px 24px;
+    margin: 32px auto 24px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.intro p {
+    color: #A6FF4D; 
+    font-size: 1.7em;
+    line-height: 1.6;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 4px #A6FF4D, 0 0 12px rgba(166, 255, 77, 0.7);
+
+}
+
+.linhatop {
+    border: none;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #4DEAFF; 
+    width: 80%;
+}
+
+.botaodascoisa {
+    margin: 20px;
+    font-family: inherit; 
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(13,13,13,0.08);
+    padding: 24px;
+}
+
+.botoes-top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-top {
+    background: linear-gradient(135deg, #0a1a3a, #003c66);     border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3s;
+    border-radius: 30px;
+    padding: 24px 64px 16px 64px;
+    box-shadow: 0 2px 12px rgba(77,234,255,0.18);
+    width: 520px;
+    min-height: 140px;
+    box-sizing: border-box;
+    color: #E0E0E0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-top:hover {
+    transform: scale(1.06);
+    box-shadow: 0 10px 40px #A6FF4D; 
+}
+
+.icone-btn {
+    display: block;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    object-fit: contain;
+    background: transparent;
+}
+
+.btn-label {
+    font-size: 1.38em;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #A6FF4D; 
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-shadow: 0 0 2px #A6FF4D, 0 0 12px rgba(166, 255, 77, 0.7);
+
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    margin-top: 40px;
+    font-size: 1em;
+}
